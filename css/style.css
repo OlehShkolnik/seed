@@ -5,7 +5,6 @@ html{
 .main-block{
     background-color: #ffffff;
     width: 480px;
-    height: 1255px;
     margin: 200px auto;
 }
 .head{
@@ -31,14 +30,14 @@ h1{
 }
 
 .header-content,p{
-    font-family: Arial Regular;
+    font-family: "Arial Regular",sans-serif;
     font-size: 12px;
     font-weight: normal;
     color: #263555;    
 }
 
 .header-content,span{
-    font-family: Arial Regular;
+    font-family: "Arial Regular",sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #263555;
@@ -53,13 +52,13 @@ h2{
     margin-left: 30px;
 }
 h3{
-    font-family: "arial regular", sans-serif;
+    font-family: "Arial Regular", sans-serif;
     font-size: 14px;
     color: #263555;
     margin-left: 30px;
 }
 .content-bar-text{
-    font-family: Arial Regular;
+    font-family: "Arial Regular",sans-serif;
     font-size: 12px;
     width: 306px;
     margin-left: 30px;   
@@ -74,7 +73,7 @@ h3{
     padding-top: 30px;
 }
 .content-bar2,span{
-    font-family: Arial Regular;
+    font-family: "Arial Regular",sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #263555;    
@@ -84,31 +83,33 @@ h3{
     margin-left: 30px;
 }
 .news-box2{
-    font-family: Arial Regular;
+    font-family: "Arial Regular",sans-serif;
     font-size: 12px;
     width: 406px;
     margin-left: 30px;    
 }
 .footer{
-    
+   
 }
 .footer-ul{
-    width: 180px;
+    width: 190px;
     display: inline-block;
     vertical-align: top;
+    list-style-image: url('../img/arrow.png');
 }
 .footer-li{
     list-style-type: none;
-    line-height: 20px;
+    margin: 5px;
 }
 .footer-ul2{
-    width: 180px;
+    width: 190px;
     display: inline-block;
-    vertical-align: top;  
+    vertical-align: top;
+    list-style-image: url('../img/arrow.png');
 }
 .footer-li2{
     list-style-type: none;
-    line-height: 20px;
+    margin: 5px;
 }
 a{
     text-decoration: none;
